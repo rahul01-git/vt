@@ -26,4 +26,4 @@ export const typeDefs = `#graphql
         updateBook(id:ID!, title: String!):Book!
         deleteBook(id:ID!): Book!
     }
-`
+`;

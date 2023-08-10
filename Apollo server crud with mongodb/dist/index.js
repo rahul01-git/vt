@@ -2,8 +2,8 @@ import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import { typeDefs } from '../graphql/typeDefs.js';
-import { resolvers } from '../graphql/resolver.js';
+import { typeDefs } from './graphql/typeDefs.js';
+import { resolvers } from './graphql/resolver.js';
 dotenv.config();
 const connection_url = process.env.URL;
 const connectDB = async () => {
